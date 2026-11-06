@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Vijay Organic Farming - Our journey, sustainable agricultural mission, vision, and timeline of soil conservation.">
+  <title>About Us | Vijay Organic Farming</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--bg-cream);">
+
+  <!-- Sticky Navigation Bar -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="logo-text">
+            <span class="logo-main">🌱 VIJAY</span>
+            <span class="logo-sub">ORGANIC FARMING</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="farming.html" class="nav-link">Farming</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="action-btn" id="theme-toggle" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          
+          <button class="action-btn" id="cart-toggle" title="Shopping Cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <button class="action-btn hamburger-btn" id="hamburger-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-header-title">Our Story Begins With the Soil</h1>
+      <div class="page-breadcrumb">
+        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> <span>About Us</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Story & Founders Section -->
+  <section class="section">
+    <div class="container">
+      <div class="about-story-grid">
+        <div class="welcome-image-wrapper">
+          <img src="farmer.jpeg" alt="Vijay Organic Farming Founder" class="welcome-img">
+          <div class="welcome-img-badge" style="background: var(--earth-brown);">
+            <div class="number">15+</div>
+            <div class="text">Years Heritage</div>
+          </div>
+        </div>
+
+        <div>
+          <span class="section-subtitle">Natural Foundations</span>
+          <h2 class="section-title">Rooted in Passion & Tradition</h2>
+          <p style="margin-bottom: 1.25rem; font-size: 1.1rem; color: var(--text-medium);">
+            Vijay Organic Farming was born out of a deep reverence for the land and a vision to replace synthetic pesticides with regenerative farming methods that restore the natural health of the earth.
+          </p>
+          <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
+            What started over a decade ago as a modest family farm in Andhra Pradesh has grown into a beacon of sustainable agriculture. We nourish our crops using organic compost, natural neem pest repellents, cow manure bio-fertilizers, and traditional crop rotation methods that protect living soil micro-flora.
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem;">
+            <div style="background: #ffffff; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border-left: 4px solid var(--primary-forest);">
+              <h4 style="font-family: var(--font-heading); color: var(--primary-forest); margin-bottom: 0.5rem;"><i class="fa-solid fa-seedling"></i> 100% Non-GMO</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">Only heirloom and open-pollinated natural seeds.</p>
+            </div>
+            <div style="background: #ffffff; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border-left: 4px solid var(--accent-gold);">
+              <h4 style="font-family: var(--font-heading); color: var(--earth-brown); margin-bottom: 0.5rem;"><i class="fa-solid fa-hands-holding-circle"></i> Zero Chemicals</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">Strictly zero toxic sprays, weedicides, or growth hormones.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision Cards Section -->
+  <section class="section" style="background: var(--bg-beige);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Guiding Philosophy</span>
+        <h2 class="section-title">Our Mission & Purpose</h2>
+        <p class="section-description">Dedicated to cultivating clean food while preserving ecological balance for generations to come.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem;">
+        <!-- Mission Card -->
+        <div style="background: #ffffff; padding: 3rem 2.5rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); border-top: 5px solid var(--primary-forest);">
+          <div style="width: 60px; height: 60px; background: rgba(15,81,50,0.1); color: var(--primary-forest); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.75rem; margin-bottom: 1.5rem;">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.75rem; color: var(--primary-forest); margin-bottom: 1rem;">Our Mission</h3>
+          <ul style="color: var(--text-medium); line-height: 1.8;">
+            <li style="margin-bottom: 0.75rem;"><i class="fa-solid fa-check" style="color: var(--primary-leaf); margin-right: 0.5rem;"></i> <strong>Sustainable Agriculture:</strong> Adopt eco-friendly, soil-first techniques.</li>
+            <li style="margin-bottom: 0.75rem;"><i class="fa-solid fa-check" style="color: var(--primary-leaf); margin-right: 0.5rem;"></i> <strong>Healthy Food:</strong> Deliver pure, unadulterated produce daily.</li>
+            <li style="margin-bottom: 0.75rem;"><i class="fa-solid fa-check" style="color: var(--primary-leaf); margin-right: 0.5rem;"></i> <strong>Supporting Farmers:</strong> Empower local farming communities with fair livelihoods.</li>
+            <li><i class="fa-solid fa-check" style="color: var(--primary-leaf); margin-right: 0.5rem;"></i> <strong>Protecting Nature:</strong> Conserve groundwater, soil fertility, and natural fauna.</li>
+          </ul>
+        </div>
+
+        <!-- Vision Hero Banner -->
+        <div style="background: linear-gradient(135deg, rgba(7,42,26,0.9), rgba(15,81,50,0.95)), url('images/organic-products.jpg') center/cover; padding: 3rem 2.5rem; border-radius: var(--radius-lg); color: #ffffff; display: flex; flex-direction: column; justify-content: center; box-shadow: var(--shadow-lg);">
+          <span style="font-family: var(--font-nav); font-size: 0.85rem; font-weight: 700; color: var(--accent-amber); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem;">Long-Term Vision</span>
+          <h3 style="font-family: var(--font-heading); font-size: 2.25rem; line-height: 1.3; margin-bottom: 1.25rem; color: #ffffff;">"A Greener Future Starts With Every Seed."</h3>
+          <p style="color: rgba(255,255,255,0.85); font-size: 1.05rem;">
+            Our vision is to transform agricultural lands into thriving biodiverse ecosystems and make certified organic food affordable and accessible to every household across the nation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Timeline Section -->
+  <section class="section timeline-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Our Journey</span>
+        <h2 class="section-title">Milestones of Growth</h2>
+        <p class="section-description">How Vijay Organic Farming evolved over 15 years of dedication.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- 2010 -->
+        <div class="timeline-item">
+          <div class="timeline-icon">10</div>
+          <div class="timeline-content">
+            <div class="timeline-year">2010</div>
+            <h4 style="font-family: var(--font-nav); font-size: 1.1rem; color: var(--earth-brown); margin-bottom: 0.5rem;">The Beginning</h4>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">Founded our initial 5-acre organic farm plot with zero chemical inputs and traditional native seed preservation.</p>
+          </div>
+        </div>
+
+        <!-- 2015 -->
+        <div class="timeline-item">
+          <div class="timeline-icon">15</div>
+          <div class="timeline-content">
+            <div class="timeline-year">2015</div>
+            <h4 style="font-family: var(--font-nav); font-size: 1.1rem; color: var(--earth-brown); margin-bottom: 0.5rem;">Organic Farming Expansion</h4>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">Expanded cultivation to over 30 acres, introducing drip irrigation systems and solar-powered farm wells.</p>
+          </div>
+        </div>
+
+        <!-- 2020 -->
+        <div class="timeline-item">
+          <div class="timeline-icon">20</div>
+          <div class="timeline-content">
+            <div class="timeline-year">2020</div>
+            <h4 style="font-family: var(--font-nav); font-size: 1.1rem; color: var(--earth-brown); margin-bottom: 0.5rem;">Sustainable Farming Practices</h4>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">Implemented multi-cropping, vermicomposting units, and natural beehive pollination programs.</p>
+          </div>
+        </div>
+
+        <!-- 2026 -->
+        <div class="timeline-item">
+          <div class="timeline-icon">26</div>
+          <div class="timeline-content">
+            <div class="timeline-year">2026</div>
+            <h4 style="font-family: var(--font-nav); font-size: 1.1rem; color: var(--earth-brown); margin-bottom: 0.5rem;">Growing With the Community</h4>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">Delivering daily farm-fresh organic harvest directly to over 250+ happy families and farm markets.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo">
+              <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div class="logo-text">
+                <span class="logo-main">🌱 VIJAY</span>
+                <span class="logo-sub">ORGANIC FARMING</span>
+              </div>
+            </a>
+          </div>
+          <p class="footer-desc">Growing naturally for a healthier tomorrow. Dedicated to sustainable agriculture, chemical-free food, and environmental stewardship.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Products</a></li>
+            <li><a href="farming.html"><i class="fa-solid fa-angle-right"></i> Farming Practices</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Farm Gallery</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Our Harvest</h4>
+          <ul class="footer-links">
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Fresh Vegetables</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Seasonal Fruits</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Grains</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Pure Raw Honey</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Cold Pressed Oils</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Newsletter</h4>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe for organic recipes, farm updates, and weekly harvest discounts.</p>
+          <form style="display: flex; gap: 0.5rem;" onsubmit="event.preventDefault(); alert('Subscribed to Vijay Organic Farming newsletter!');">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.75rem 1rem; border-radius: var(--radius-full); background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: #fff; width: 100%;">
+            <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.25rem;"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vijay Organic Farming. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Out Shopping Cart Panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3 class="cart-header-title"><i class="fa-solid fa-basket-shopping"></i> Your Basket</h3>
+      <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total Amount:</span>
+        <span id="cart-total-amount" style="color: var(--primary-forest);">₹0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" onclick="checkoutCart()">
+        <i class="fa-solid fa-bag-shopping"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- Scroll-to-Top Button -->
+  <button class="scroll-top-btn" id="scroll-top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Master JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>

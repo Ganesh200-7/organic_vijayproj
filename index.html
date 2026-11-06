@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vijay Organic Farming - Growing Nature. Nourishing Life. Certified 100% pure organic produce and sustainable agricultural practices.">
+  <title>Vijay Organic Farming | Growing Nature. Nourishing Life.</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Global Navigation Bar -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="logo-text">
+            <span class="logo-main">🌱 VIJAY</span>
+            <span class="logo-sub">ORGANIC FARMING</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="farming.html" class="nav-link">Farming</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="action-btn" id="theme-toggle" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          
+          <button class="action-btn" id="cart-toggle" title="Shopping Cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <button class="action-btn hamburger-btn" id="hamburger-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Spectacular Hero Section -->
+  <section class="hero">
+    <div class="floating-leaves">
+      <i class="fa-solid fa-leaf floating-leaf"></i>
+      <i class="fa-solid fa-seedling floating-leaf"></i>
+      <i class="fa-solid fa-clover floating-leaf"></i>
+      <i class="fa-solid fa-plant-wilt floating-leaf"></i>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-award"></i> Certified 100% Pure & Sustainable Agriculture
+        </div>
+        <h1 class="hero-title">Growing Nature. <span>Nourishing Life.</span></h1>
+        <p class="hero-desc">
+          Welcome to Vijay Organic Farming – where healthy soil, natural farming and sustainable living come together to bring clean, fresh, chemical-free food directly to your table.
+        </p>
+        <div class="hero-btns">
+          <a href="products.html" class="btn btn-primary">
+            <i class="fa-solid fa-basket-shopping"></i> Explore Our Products
+          </a>
+          <a href="about.html" class="btn btn-secondary" style="background: rgba(255,255,255,0.15); color: #ffffff; border-color: rgba(255,255,255,0.3); backdrop-filter: blur(8px);">
+            <i class="fa-solid fa-seedling"></i> Discover Our Farm
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Welcome -->
+  <section class="section">
+    <div class="container">
+      <div class="welcome-grid">
+        <div class="welcome-text">
+          <span class="section-subtitle">Purity in Every Harvest</span>
+          <h2 class="section-title">From Our Soil to Your Table</h2>
+          <p style="margin-bottom: 1.25rem; font-size: 1.1rem; color: var(--text-medium);">
+            At Vijay Organic Farming, we believe that true wellness begins beneath our feet. By nurturing living soil with organic compost, zero synthetic pesticides, and natural rainwater harvesting, we cultivate produce bursting with authentic flavor and uncompromised nutrients.
+          </p>
+          <p style="margin-bottom: 2rem; color: var(--text-muted);">
+            Every seed we plant is dedicated to restoring ecological balance, empowering local agricultural communities, and offering your family wholesome food grown with genuine love and environmental care.
+          </p>
+          <a href="about.html" class="btn btn-primary">
+            <i class="fa-solid fa-circle-arrow-right"></i> Read Our Full Story
+          </a>
+        </div>
+        <div class="welcome-image-wrapper">
+          <img src="organic.jpeg" alt="Vijay Organic Farmer" class="welcome-img">
+          <div class="welcome-img-badge">
+            <div class="number">100%</div>
+            <div class="text">Chemical-Free</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Why Choose Organic? -->
+  <section class="section" style="background: linear-gradient(180deg, var(--bg-cream) 0%, var(--bg-beige) 100%);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Pure Benefits</span>
+        <h2 class="section-title">Why Choose Organic?</h2>
+        <p class="section-description">Experience the transformative power of natural agriculture for your body, family, and ecosystem.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Card 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">🌱</div>
+          <h3 class="feature-title">Healthy Soil</h3>
+          <p class="feature-desc">Natural farming techniques improve soil quality, microbes, and organic mineral density.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">🥬</div>
+          <h3 class="feature-title">Pure Food</h3>
+          <p class="feature-desc">Fresh, vibrant produce grown using 100% chemical-free and non-GMO responsible methods.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3 class="feature-title">Protect Nature</h3>
+          <p class="feature-desc">Sustainable farming safeguards native wildlife, beneficial insects, and local biodiversity.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">💧</div>
+          <h3 class="feature-title">Save Water</h3>
+          <p class="feature-desc">Responsible drip irrigation and mulch practices help conserve precious groundwater resources.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Farm Statistics Counter -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-target="15" data-suffix="+">0</div>
+          <div class="stat-label">Years of Farming</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="250" data-suffix="+">0</div>
+          <div class="stat-label">Happy Customers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="40" data-suffix="+">0</div>
+          <div class="stat-label">Organic Crops</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="100" data-suffix="%">0</div>
+          <div class="stat-label">Natural Farming</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Featured Products -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Farm Fresh Daily</span>
+        <h2 class="section-title">Featured Organic Products</h2>
+        <p class="section-description">Handpicked directly from our fields to guarantee peak freshness and nutrition.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card" data-id="p-tomato">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Fresh Harvest</span>
+            <img src="tomato.jpg" alt="Organic Tomatoes" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5.0)
+            </div>
+            <h3 class="product-title">Organic Tomatoes</h3>
+            <p class="product-desc">Sun-ripened vine tomatoes packed with natural antioxidants and rich flavor.</p>
+            <div class="product-footer">
+              <div class="product-price">₹80 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" data-id="p-spinach">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Leafy Greens</span>
+            <img src="spinach.jpg" alt="Fresh Spinach" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> (4.8)
+            </div>
+            <h3 class="product-title">Fresh Spinach</h3>
+            <p class="product-desc">Nutrient-dense spinach leaves grown naturally without chemical fertilizers.</p>
+            <div class="product-footer">
+              <div class="product-price">₹45 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ bunch</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-id="p-carrot">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Crunchy Root</span>
+            <img src="carrot.jpg" alt="Organic Carrots" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (4.9)
+            </div>
+            <h3 class="product-title">Organic Carrots</h3>
+            <p class="product-desc">Sweet, crisp carrots naturally rich in Beta-Carotene harvested fresh daily.</p>
+            <div class="product-footer">
+              <div class="product-price">₹65 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" data-id="p-mango">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Seasonal Fruit</span>
+            <img src="fruits.jpg" alt="Fresh Mangoes" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5.0)
+            </div>
+            <h3 class="product-title">Fresh Mangoes</h3>
+            <p class="product-desc">Tree-ripened organic mangoes filled with tropical aroma and natural sweetness.</p>
+            <div class="product-footer">
+              <div class="product-price">₹220 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3.5rem;">
+        <a href="products.html" class="btn btn-secondary">
+          <i class="fa-solid fa-store"></i> View All Products
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Farmer Quote -->
+  <section class="quote-section">
+    <div class="container">
+      <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+      <blockquote class="quote-text">
+        "Healthy soil creates healthy food, and healthy food creates a healthy future."
+      </blockquote>
+      <div class="quote-author">― Founder, Vijay Organic Farming</div>
+    </div>
+  </section>
+
+  <!-- Section 6: Call To Action -->
+  <section class="section" style="padding-bottom: 2rem;">
+    <div class="container">
+      <div class="cta-section">
+        <h2 class="cta-title">Choose Organic. Choose a Better Tomorrow.</h2>
+        <p class="cta-desc">Join hundreds of conscious families receiving pure, unadulterated farm produce delivered right to their doors every week.</p>
+        <a href="products.html" class="btn btn-accent" style="font-size: 1.1rem; padding: 1rem 2.2rem;">
+          <i class="fa-solid fa-leaf"></i> Explore Vijay Organic Farming
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo">
+              <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div class="logo-text">
+                <span class="logo-main">🌱 VIJAY</span>
+                <span class="logo-sub">ORGANIC FARMING</span>
+              </div>
+            </a>
+          </div>
+          <p class="footer-desc">Growing naturally for a healthier tomorrow. Dedicated to sustainable agriculture, chemical-free food, and environmental stewardship.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Products</a></li>
+            <li><a href="farming.html"><i class="fa-solid fa-angle-right"></i> Farming Practices</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Farm Gallery</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Our Harvest</h4>
+          <ul class="footer-links">
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Fresh Vegetables</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Seasonal Fruits</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Grains</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Pure Raw Honey</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Cold Pressed Oils</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Newsletter</h4>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe for organic recipes, farm updates, and weekly harvest discounts.</p>
+          <form style="display: flex; gap: 0.5rem;" onsubmit="event.preventDefault(); alert('Subscribed to Vijay Organic Farming newsletter!');">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.75rem 1rem; border-radius: var(--radius-full); background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: #fff; width: 100%;">
+            <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.25rem;"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vijay Organic Farming. All Rights Reserved. Crafted with care for Nature & Health.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Out Shopping Cart Panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3 class="cart-header-title"><i class="fa-solid fa-basket-shopping"></i> Your Basket</h3>
+      <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total Amount:</span>
+        <span id="cart-total-amount" style="color: var(--primary-forest);">₹0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" onclick="checkoutCart()">
+        <i class="fa-solid fa-bag-shopping"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- Scroll-to-Top Button -->
+  <button class="scroll-top-btn" id="scroll-top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Master JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>

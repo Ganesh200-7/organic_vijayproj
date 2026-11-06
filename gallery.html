@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vijay Organic Farm Gallery - Explore real photo impressions of farm landscapes, farmers, crops, harvests, and soil management.">
+  <title>Farm Gallery | Vijay Organic Farming</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--bg-charcoal);">
+
+  <!-- Sticky Navigation Bar -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="logo-text">
+            <span class="logo-main">🌱 VIJAY</span>
+            <span class="logo-sub">ORGANIC FARMING</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="farming.html" class="nav-link">Farming</a></li>
+          <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="action-btn" id="theme-toggle" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          
+          <button class="action-btn" id="cart-toggle" title="Shopping Cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <button class="action-btn hamburger-btn" id="hamburger-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header" style="background: linear-gradient(rgba(7, 42, 26, 0.9), rgba(12, 25, 18, 0.95)), url('hero-farm.jpg') center/cover no-repeat;">
+    <div class="container">
+      <h1 class="page-header-title">Life at Vijay Organic Farm</h1>
+      <div class="page-breadcrumb">
+        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> <span>Farm Gallery</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Grid Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 3rem;">
+        <span class="section-subtitle" style="color: var(--accent-amber);">Visual Journey</span>
+        <h2 class="section-title" style="color: #ffffff;">Our Farm in Pictures</h2>
+        <p class="section-description" style="color: rgba(255,255,255,0.7);">Click any photo to open full-screen lightbox modal.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Image 1: Farm Landscape -->
+        <div class="gallery-item">
+          <img src="hero-farm.jpg" alt="Organic Farm Landscape" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Landscape</span>
+            <h3 class="gallery-title">Golden Sunrise Farm Landscape</h3>
+          </div>
+        </div>
+
+        <!-- Image 2: Farmer Working -->
+        <div class="gallery-item">
+          <img src="farmer.jpg" alt="Farmer Harvesting" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Farmers</span>
+            <h3 class="gallery-title">Daily Organic Vegetable Harvest</h3>
+          </div>
+        </div>
+
+        <!-- Image 3: Vegetables -->
+        <div class="gallery-item">
+          <img src="tomato.jpg" alt="Fresh Organic Vegetables" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Crops</span>
+            <h3 class="gallery-title">Vine-Ripened Organic Tomatoes</h3>
+          </div>
+        </div>
+
+        <!-- Image 4: Fruits -->
+        <div class="gallery-item">
+          <img src="fruits.jpg" alt="Fresh Organic Fruits" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Fruits</span>
+            <h3 class="gallery-title">Fresh Tree-Ripened Mangoes</h3>
+          </div>
+        </div>
+
+        <!-- Image 5: Organic Products -->
+        <div class="gallery-item">
+          <img src="organic-products.jpg" alt="Assorted Organic Produce" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Produce</span>
+            <h3 class="gallery-title">Turmeric, Honey & Grains Display</h3>
+          </div>
+        </div>
+
+        <!-- Image 6: Farming Soil -->
+        <div class="gallery-item">
+          <img src="carrot.jpg" alt="Nutrient Rich Soil" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Soil & Compost</span>
+            <h3 class="gallery-title">Nutrient-Rich Living Compost Soil</h3>
+          </div>
+        </div>
+
+        <!-- Image 7: Leafy Greens -->
+        <div class="gallery-item">
+          <img src="spinach.jpg" alt="Organic Spinach Field" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Greenhouse</span>
+            <h3 class="gallery-title">Lush Organic Spinach Beds</h3>
+          </div>
+        </div>
+
+        <!-- Image 8: Honey & Hive -->
+        <div class="gallery-item">
+          <img src="honey.jpg" alt="Raw Honey Harvest" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Natural</span>
+            <h3 class="gallery-title">Raw Flower Honey Harvest</h3>
+          </div>
+        </div>
+
+        <!-- Image 9: Organic Wheat Field -->
+        <div class="gallery-item">
+          <img src="wheat.jpg" alt="Organic Wheat Field" class="gallery-img">
+          <div class="gallery-overlay">
+            <span style="color: var(--accent-amber); font-size: 0.8rem; font-family: var(--font-nav); text-transform: uppercase;">Grains</span>
+            <h3 class="gallery-title">Golden Organic Wheat Fields</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal Viewer -->
+  <div class="lightbox-modal" id="lightbox-modal">
+    <span class="lightbox-close" id="lightbox-close-btn">&times;</span>
+    <div style="text-align: center; max-width: 90%;">
+      <img src="" id="lightbox-img" class="lightbox-content" alt="Lightbox Preview">
+      <div id="lightbox-caption" style="color: #ffffff; font-family: var(--font-heading); font-size: 1.25rem; margin-top: 1rem;"></div>
+    </div>
+  </div>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo">
+              <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div class="logo-text">
+                <span class="logo-main">🌱 VIJAY</span>
+                <span class="logo-sub">ORGANIC FARMING</span>
+              </div>
+            </a>
+          </div>
+          <p class="footer-desc">Growing naturally for a healthier tomorrow. Dedicated to sustainable agriculture, chemical-free food, and environmental stewardship.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Products</a></li>
+            <li><a href="farming.html"><i class="fa-solid fa-angle-right"></i> Farming Practices</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Farm Gallery</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Our Harvest</h4>
+          <ul class="footer-links">
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Fresh Vegetables</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Seasonal Fruits</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Grains</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Pure Raw Honey</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Cold Pressed Oils</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Newsletter</h4>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe for organic recipes, farm updates, and weekly harvest discounts.</p>
+          <form style="display: flex; gap: 0.5rem;" onsubmit="event.preventDefault(); alert('Subscribed to Vijay Organic Farming newsletter!');">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.75rem 1rem; border-radius: var(--radius-full); background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: #fff; width: 100%;">
+            <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.25rem;"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vijay Organic Farming. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Out Shopping Cart Panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3 class="cart-header-title"><i class="fa-solid fa-basket-shopping"></i> Your Basket</h3>
+      <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total Amount:</span>
+        <span id="cart-total-amount" style="color: var(--primary-forest);">₹0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" onclick="checkoutCart()">
+        <i class="fa-solid fa-bag-shopping"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- Scroll-to-Top Button -->
+  <button class="scroll-top-btn" id="scroll-top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Master JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>

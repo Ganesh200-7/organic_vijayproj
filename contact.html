@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Vijay Organic Farming - Get in touch for organic produce orders, farm visits, and sustainable agriculture inquiries.">
+  <title>Contact Us | Vijay Organic Farming</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(180deg, var(--bg-dark-forest) 0%, var(--bg-cream) 100%);">
+
+  <!-- Sticky Navigation Bar -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="logo-text">
+            <span class="logo-main">🌱 VIJAY</span>
+            <span class="logo-sub">ORGANIC FARMING</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="farming.html" class="nav-link">Farming</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="action-btn" id="theme-toggle" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          
+          <button class="action-btn" id="cart-toggle" title="Shopping Cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <button class="action-btn hamburger-btn" id="hamburger-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header" style="background: transparent;">
+    <div class="container">
+      <h1 class="page-header-title">Let's Grow Something Good Together</h1>
+      <div class="page-breadcrumb">
+        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> <span>Contact Us</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Grid Section -->
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Left: Contact Details Card -->
+        <div class="contact-info-card">
+          <h2 style="font-family: var(--font-heading); font-size: 2rem; color: #ffffff; margin-bottom: 1.5rem;">Get in Touch</h2>
+          <p style="color: rgba(255,255,255,0.8); margin-bottom: 2.5rem; font-size: 0.95rem;">
+            Have questions about our weekly farm deliveries, bulk organic orders, or wish to schedule a farm visit? We'd love to hear from you!
+          </p>
+
+          <!-- Item 1: Location -->
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4 style="font-family: var(--font-nav); color: var(--accent-amber); font-size: 1rem; margin-bottom: 0.25rem;">📍 Farm Location</h4>
+              <p style="color: rgba(255,255,255,0.85); font-size: 0.9rem;">Vijay Organic Farm, Green Valley Road, Guntur District, Andhra Pradesh - 522002</p>
+            </div>
+          </div>
+
+          <!-- Item 2: Phone -->
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4 style="font-family: var(--font-nav); color: var(--accent-amber); font-size: 1rem; margin-bottom: 0.25rem;">📞 Phone</h4>
+              <p style="color: rgba(255,255,255,0.85); font-size: 0.9rem;">+91 98765 43210 / +91 91234 56789</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Email -->
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4 style="font-family: var(--font-nav); color: var(--accent-amber); font-size: 1rem; margin-bottom: 0.25rem;">✉ Email</h4>
+              <p style="color: rgba(255,255,255,0.85); font-size: 0.9rem;">contact@vijayorganicfarming.com</p>
+            </div>
+          </div>
+
+          <!-- Item 4: Working Hours -->
+          <div class="info-item" style="margin-bottom: 0;">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4 style="font-family: var(--font-nav); color: var(--accent-amber); font-size: 1rem; margin-bottom: 0.25rem;">🕒 Working Hours</h4>
+              <p style="color: rgba(255,255,255,0.85); font-size: 0.9rem;">Monday – Saturday: 6:00 AM – 7:00 PM<br>Sunday: Farm Visit by Appointment</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Glassmorphism Contact Form -->
+        <div class="contact-form-card">
+          <h3 style="font-family: var(--font-heading); font-size: 1.85rem; color: var(--primary-forest); margin-bottom: 1.5rem;">Send Us a Message</h3>
+          
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Full Name *</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="Enter your full name" required>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email Address *</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="name@example.com" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-phone">Phone Number</label>
+                <input type="tel" id="contact-phone" class="form-control" placeholder="+91 98765 43210">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" class="form-control" placeholder="Farm tour, wholesale order, general inquiry...">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Message *</label>
+              <textarea id="contact-message" class="form-control" rows="4" placeholder="How can Vijay Organic Farming assist you?" required></style="resize: vertical;"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.95rem; font-size: 1rem;">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo">
+              <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div class="logo-text">
+                <span class="logo-main">🌱 VIJAY</span>
+                <span class="logo-sub">ORGANIC FARMING</span>
+              </div>
+            </a>
+          </div>
+          <p class="footer-desc">Growing naturally for a healthier tomorrow. Dedicated to sustainable agriculture, chemical-free food, and environmental stewardship.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Products</a></li>
+            <li><a href="farming.html"><i class="fa-solid fa-angle-right"></i> Farming Practices</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Farm Gallery</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Our Harvest</h4>
+          <ul class="footer-links">
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Fresh Vegetables</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Seasonal Fruits</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Grains</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Pure Raw Honey</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Cold Pressed Oils</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Newsletter</h4>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe for organic recipes, farm updates, and weekly harvest discounts.</p>
+          <form style="display: flex; gap: 0.5rem;" onsubmit="event.preventDefault(); alert('Subscribed to Vijay Organic Farming newsletter!');">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.75rem 1rem; border-radius: var(--radius-full); background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: #fff; width: 100%;">
+            <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.25rem;"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vijay Organic Farming. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Out Shopping Cart Panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3 class="cart-header-title"><i class="fa-solid fa-basket-shopping"></i> Your Basket</h3>
+      <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total Amount:</span>
+        <span id="cart-total-amount" style="color: var(--primary-forest);">₹0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" onclick="checkoutCart()">
+        <i class="fa-solid fa-bag-shopping"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- Scroll-to-Top Button -->
+  <button class="scroll-top-btn" id="scroll-top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Master JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>

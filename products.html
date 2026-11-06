@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vijay Organic Marketplace - Browse fresh organic vegetables, fruits, grains, honey, and natural produce. Direct farm to table.">
+  <title>Organic Products Marketplace | Vijay Organic Farming</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(180deg, #f0fdf4 0%, var(--bg-cream) 100%);">
+
+  <!-- Sticky Navigation Bar -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="logo-text">
+            <span class="logo-main">🌱 VIJAY</span>
+            <span class="logo-sub">ORGANIC FARMING</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link active">Products</a></li>
+          <li><a href="farming.html" class="nav-link">Farming</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="action-btn" id="theme-toggle" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          
+          <button class="action-btn" id="cart-toggle" title="Shopping Cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <button class="action-btn hamburger-btn" id="hamburger-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-header-title">Fresh From Our Farm</h1>
+      <div class="page-breadcrumb">
+        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> <span>Organic Products</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marketplace Section -->
+  <section class="section">
+    <div class="container">
+      <!-- Search Input -->
+      <div class="search-bar-container">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" class="search-input" id="product-search-input" placeholder="Search organic vegetables, fruits, honey, grains...">
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-wrapper">
+        <button class="filter-btn active" data-category="all"><i class="fa-solid fa-border-all"></i> All Products</button>
+        <button class="filter-btn" data-category="vegetables"><i class="fa-solid fa-carrot"></i> Vegetables</button>
+        <button class="filter-btn" data-category="fruits"><i class="fa-solid fa-apple-whole"></i> Fruits</button>
+        <button class="filter-btn" data-category="grains"><i class="fa-solid fa-wheat-awn"></i> Grains</button>
+        <button class="filter-btn" data-category="natural"><i class="fa-solid fa-jar"></i> Natural Products</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- 1. Organic Tomato -->
+        <div class="product-card" data-category="vegetables" data-id="p-tomato">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Vegetables</span>
+            <img src="tomato.jpg" alt="Organic Tomato" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5.0)</div>
+            <h3 class="product-title">Organic Tomato</h3>
+            <p class="product-desc">Juicy, sun-ripened vine tomatoes rich in lycopene and vitamin C.</p>
+            <div class="product-footer">
+              <div class="product-price">₹80 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Organic Carrot -->
+        <div class="product-card" data-category="vegetables" data-id="p-carrot">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Vegetables</span>
+            <img src="carrot.jpg" alt="Organic Carrot" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (4.9)</div>
+            <h3 class="product-title">Organic Carrot</h3>
+            <p class="product-desc">Sweet, crisp soil-harvested carrots packed with natural Beta-Carotene.</p>
+            <div class="product-footer">
+              <div class="product-price">₹65 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Organic Spinach -->
+        <div class="product-card" data-category="vegetables" data-id="p-spinach">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Vegetables</span>
+            <img src="spinach.jpg" alt="Organic Spinach" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> (4.8)</div>
+            <h3 class="product-title">Organic Spinach</h3>
+            <p class="product-desc">Freshly cut tender green spinach leaves grown using organic compost.</p>
+            <div class="product-footer">
+              <div class="product-price">₹45 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ bunch</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Organic Potato -->
+        <div class="product-card" data-category="vegetables" data-id="p-potato">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Vegetables</span>
+            <img src="potato.jpg" alt="Organic Potato" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (4.9)</div>
+            <h3 class="product-title">Organic Potato</h3>
+            <p class="product-desc">Naturally grown potatoes cultivated in living soil, perfect for every dish.</p>
+            <div class="product-footer">
+              <div class="product-price">₹50 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Organic Rice -->
+        <div class="product-card" data-category="grains" data-id="p-rice">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Grains</span>
+            <img src="rice.jpg" alt="Organic Rice" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5.0)</div>
+            <h3 class="product-title">Organic Rice</h3>
+            <p class="product-desc">Unpolished, aromatic organic rice harvested directly from rain-fed fields.</p>
+            <div class="product-footer">
+              <div class="product-price">₹140 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Organic Wheat -->
+        <div class="product-card" data-category="grains" data-id="p-wheat">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Grains</span>
+            <img src="wheat.jpg" alt="Organic Wheat" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (4.9)</div>
+            <h3 class="product-title">Organic Wheat</h3>
+            <p class="product-desc">Whole grain organic wheat rich in dietary fiber and essential minerals.</p>
+            <div class="product-footer">
+              <div class="product-price">₹95 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Organic Mango -->
+        <div class="product-card" data-category="fruits" data-id="p-mango">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Fruits</span>
+            <img src="fruits.jpg" alt="Organic Mango" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5.0)</div>
+            <h3 class="product-title">Organic Mango</h3>
+            <p class="product-desc">Tree-ripened organic mangoes filled with irresistible tropical sweetness.</p>
+            <div class="product-footer">
+              <div class="product-price">₹220 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ kg</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Organic Honey -->
+        <div class="product-card" data-category="natural" data-id="p-honey">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Natural Products</span>
+            <img src="honey.jpg" alt="Organic Honey" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5.0)</div>
+            <h3 class="product-title">Organic Honey</h3>
+            <p class="product-desc">100% raw, unheated natural flower honey harvested directly from farm hives.</p>
+            <div class="product-footer">
+              <div class="product-price">₹350 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ jar</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Organic Turmeric -->
+        <div class="product-card" data-category="natural" data-id="p-turmeric">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Natural Products</span>
+            <img src="organic-products.jpg" alt="Organic Turmeric" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (5.0)</div>
+            <h3 class="product-title">Organic Turmeric</h3>
+            <p class="product-desc">Pure golden turmeric root powder with high natural curcumin content.</p>
+            <div class="product-footer">
+              <div class="product-price">₹180 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ 500g</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Organic Coconut -->
+        <div class="product-card" data-category="natural" data-id="p-coconut">
+          <div class="product-img-wrapper">
+            <span class="product-tag">Natural Products</span>
+            <img src="hero-farm.jpg" alt="Organic Coconut" class="product-img">
+          </div>
+          <div class="product-info">
+            <div class="product-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> (4.8)</div>
+            <h3 class="product-title">Organic Coconut</h3>
+            <p class="product-desc">Fresh tender coconuts filled with electrolyte-rich sweet natural coconut water.</p>
+            <div class="product-footer">
+              <div class="product-price">₹60 <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-muted);">/ piece</span></div>
+              <button class="add-cart-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo">
+              <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div class="logo-text">
+                <span class="logo-main">🌱 VIJAY</span>
+                <span class="logo-sub">ORGANIC FARMING</span>
+              </div>
+            </a>
+          </div>
+          <p class="footer-desc">Growing naturally for a healthier tomorrow. Dedicated to sustainable agriculture, chemical-free food, and environmental stewardship.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Products</a></li>
+            <li><a href="farming.html"><i class="fa-solid fa-angle-right"></i> Farming Practices</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Farm Gallery</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Our Harvest</h4>
+          <ul class="footer-links">
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Fresh Vegetables</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Seasonal Fruits</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Grains</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Pure Raw Honey</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Cold Pressed Oils</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Newsletter</h4>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe for organic recipes, farm updates, and weekly harvest discounts.</p>
+          <form style="display: flex; gap: 0.5rem;" onsubmit="event.preventDefault(); alert('Subscribed to Vijay Organic Farming newsletter!');">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.75rem 1rem; border-radius: var(--radius-full); background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: #fff; width: 100%;">
+            <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.25rem;"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vijay Organic Farming. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Out Shopping Cart Panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3 class="cart-header-title"><i class="fa-solid fa-basket-shopping"></i> Your Basket</h3>
+      <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total Amount:</span>
+        <span id="cart-total-amount" style="color: var(--primary-forest);">₹0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" onclick="checkoutCart()">
+        <i class="fa-solid fa-bag-shopping"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- Scroll-to-Top Button -->
+  <button class="scroll-top-btn" id="scroll-top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Master JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>

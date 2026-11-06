@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Organic Farming Practices - Explore how Vijay Organic Farming uses natural soil management, crop rotation, and bio-fertilizers.">
+  <title>Farming Practices | Vijay Organic Farming</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--bg-cream);">
+
+  <!-- Sticky Navigation Bar -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="logo-text">
+            <span class="logo-main">🌱 VIJAY</span>
+            <span class="logo-sub">ORGANIC FARMING</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="farming.html" class="nav-link active">Farming</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="action-btn" id="theme-toggle" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          
+          <button class="action-btn" id="cart-toggle" title="Shopping Cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <button class="action-btn hamburger-btn" id="hamburger-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <div class="page-header" style="background: linear-gradient(rgba(7, 42, 26, 0.85), rgba(15, 81, 50, 0.95)), url('farming.jpg') center/cover no-repeat;">
+    <div class="container">
+      <h1 class="page-header-title">The Art of Growing Naturally</h1>
+      <div class="page-breadcrumb">
+        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i> <span>Farming Practices</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Practices Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Sustainable Agriculture</span>
+        <h2 class="section-title">Our Organic Farming Techniques</h2>
+        <p class="section-description">We combine ancient traditional farming wisdom with modern eco-friendly science to protect the earth and yield nutrient-rich harvests.</p>
+      </div>
+
+      <div class="farming-grid">
+        <!-- 1. Organic Soil Management -->
+        <div class="farming-card">
+          <div class="farming-card-icon"><i class="fa-solid fa-mound"></i></div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--primary-forest); margin-bottom: 0.75rem;">Organic Soil Management</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            We enrich living soil through organic compost, bio-char, and leaf mulch. Healthy micro-organisms retain natural moisture and naturally feed crop roots without chemical additives.
+          </p>
+        </div>
+
+        <!-- 2. Natural Fertilizers -->
+        <div class="farming-card">
+          <div class="farming-card-icon"><i class="fa-solid fa-cow"></i></div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--primary-forest); margin-bottom: 0.75rem;">Natural Fertilizers</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            Our fields are nourished exclusively with indigenous cow manure, vermicompost, Jeevamrutha, and green manure crops such as sunn hemp and dhaincha.
+          </p>
+        </div>
+
+        <!-- 3. Crop Rotation -->
+        <div class="farming-card">
+          <div class="farming-card-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--primary-forest); margin-bottom: 0.75rem;">Crop Rotation</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            Rotating legumes, grains, and deep-root vegetables replenishes nitrogen naturally in the soil, breaks pest cycles, and eliminates the need for synthetic fertilizers.
+          </p>
+        </div>
+
+        <!-- 4. Natural Pest Management -->
+        <div class="farming-card">
+          <div class="farming-card-icon"><i class="fa-solid fa-bugs"></i></div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--primary-forest); margin-bottom: 0.75rem;">Natural Pest Management</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            We employ neem oil sprays, marigold trap crops, and ladybugs as natural predators. We never spray harmful chemical neurotoxins or herbicides.
+          </p>
+        </div>
+
+        <!-- 5. Water Conservation -->
+        <div class="farming-card">
+          <div class="farming-card-icon"><i class="fa-solid fa-droplet"></i></div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--primary-forest); margin-bottom: 0.75rem;">Water Conservation</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            Solar-powered precision drip irrigation and rainwater harvesting ponds ensure zero water waste, conserving precious groundwater reservoirs year-round.
+          </p>
+        </div>
+
+        <!-- 6. Biodiversity -->
+        <div class="farming-card">
+          <div class="farming-card-icon"><i class="fa-solid fa-bee"></i></div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--primary-forest); margin-bottom: 0.75rem;">Biodiversity</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            We maintain natural bee hives and flowering borders to foster honeybee pollination, healthy bird nesting, and a self-balancing ecological ecosystem.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive FAQ Section -->
+  <section class="section" style="background: var(--bg-beige);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Common Questions</span>
+        <h2 class="section-title">Organic Farming FAQ</h2>
+        <p class="section-description">Learn more about how we verify purity and grow our produce.</p>
+      </div>
+
+      <div class="accordion-wrapper">
+        <div class="accordion-item active">
+          <div class="accordion-header">
+            <span>How do you verify your farm produce is 100% chemical-free?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="accordion-body">
+            We conduct periodic soil and residue lab tests to guarantee zero pesticide trace. Our farm follows strict national organic standards, relying on natural bio-inputs and zero synthetic chemicals.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <span>What is Jeevamrutha and how does it help crops?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="accordion-body">
+            Jeevamrutha is an ancient fermented Indian bio-fertilizer made from indigenous cow dung, urine, jaggery, and pulse flour. It acts as a powerful soil culture multiplier, introducing millions of beneficial micro-organisms into the soil.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <span>Why does organic food taste more flavorful than market produce?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="accordion-body">
+            Because organic crops grow naturally without forced chemical water absorption, they develop higher dry matter content, essential oils, natural sugars, and antioxidant phytonutrients.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <span>Can visitors take a tour of Vijay Organic Farm?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="accordion-body">
+            Yes! We welcome families, schools, and agriculture enthusiasts for weekend farm visits to experience natural harvesting and soil composting firsthand.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo">
+              <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div class="logo-text">
+                <span class="logo-main">🌱 VIJAY</span>
+                <span class="logo-sub">ORGANIC FARMING</span>
+              </div>
+            </a>
+          </div>
+          <p class="footer-desc">Growing naturally for a healthier tomorrow. Dedicated to sustainable agriculture, chemical-free food, and environmental stewardship.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Products</a></li>
+            <li><a href="farming.html"><i class="fa-solid fa-angle-right"></i> Farming Practices</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Farm Gallery</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Our Harvest</h4>
+          <ul class="footer-links">
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Fresh Vegetables</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Seasonal Fruits</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Organic Grains</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Pure Raw Honey</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-angle-right"></i> Cold Pressed Oils</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Newsletter</h4>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe for organic recipes, farm updates, and weekly harvest discounts.</p>
+          <form style="display: flex; gap: 0.5rem;" onsubmit="event.preventDefault(); alert('Subscribed to Vijay Organic Farming newsletter!');">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.75rem 1rem; border-radius: var(--radius-full); background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: #fff; width: 100%;">
+            <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.25rem;"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vijay Organic Farming. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Out Shopping Cart Panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3 class="cart-header-title"><i class="fa-solid fa-basket-shopping"></i> Your Basket</h3>
+      <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total Amount:</span>
+        <span id="cart-total-amount" style="color: var(--primary-forest);">₹0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width: 100%; font-size: 1rem;" onclick="checkoutCart()">
+        <i class="fa-solid fa-bag-shopping"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- Scroll-to-Top Button -->
+  <button class="scroll-top-btn" id="scroll-top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Master JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>
